@@ -1,0 +1,175 @@
+.contact-button {
+    border: 1px solid #827c98;
+    color: #5E3BEE;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #5E3BEE;
+}
+
+.hero-section {
+    background-color: #F5FCFF;
+}
+
+.hero-flex-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.hero-left {
+    width: 100%;
+    /* margin: 150px 0 150px 80px; */
+}
+
+.hero-left-hey {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.hero-left-create {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.hero-left-create span {
+    color: #5E3BEE;
+    font-size: 2.5rem;
+}
+
+.hero-right {
+    width: 100%;
+    text-align: center;
+}
+
+.hero-right img {
+    width: 75%;
+    margin: 50px 0 50px 10px;
+    object-fit: cover;
+    border-radius: 7px;
+    opacity: 70%;
+}
+
+.skills-cards {
+    margin: 40px auto;    
+}
+
+.skill-card {
+    margin-top: 15px;
+    height: 370px;
+    background-color: #F5FCFF;
+    border: 1px solid #F5FCFF;
+}
+
+.img-wrapper {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.jobs-cards {
+    margin: auto 20px;
+}
+
+.contact-section {
+    margin: auto 20px;
+}
+
+.portfolio-section .card {
+    border: 1px solid #827c98;
+}
+
+.portfolio-section .card-body {
+    padding-bottom: 0;
+}
+
+.border-violet {
+    border-color: #5E3BEE;
+}
+
+.footer {
+    background-color: #F5FCFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    color: #5E3BEE;
+    background-color: white;
+    border-color: #5E3BEE;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero-left {
+        width: 65%;
+        /* margin: 150px 0 150px 80px; */
+    }
+
+    .hero-right {
+        width: 35%;
+        text-align: center;
+    }
+
+    .hero-right img {
+        width: 75%;
+        margin: 20px 0 20px 10px;
+        object-fit: cover;
+        border-radius: 7px;
+        opacity: 70%;
+    }
+
+    .skill-card {
+        height: 250px;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .hero-flex-container {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0;
+    }
+    
+    .hero-left {
+        width: 50%;
+        margin: 100px 0 100px 80px;
+    }
+
+    .hero-right {
+        width: 50%;
+        text-align: center;
+    }
+
+    .hero-right img {
+        width: 75%;
+        margin: 50px 0 50px 10px;
+        object-fit: cover;
+        border-radius: 7px;
+        opacity: 70%;
+    }
+
+    .skill-card {
+        height: 300px;
+    }
+    
+}
