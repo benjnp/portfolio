@@ -23,17 +23,20 @@
       <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#tech">Tech</a>
+            <a class="nav-link nav-hover-underline-animation" href="#tech">Tech</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link nav-hover-underline-animation" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#job">Job</a>
+            <a class="nav-link nav-hover-underline-animation" href="#job">Job</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-hover-underline-animation d-md-none" href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
-      <div>
+      <div class="d-none d-md-block">
         <a href="#contact"><button class="btn contact-button" type="button">Contact Me</button></a>
       </div>
     </div>
@@ -45,7 +48,7 @@
           Hey I'm Benjamin
         </div>
         <div class="hero-left-create">
-          I <span>manage projects</span> and <span>develop websites</span> to help you reach your goal
+          I <span class="hero-hover-underline-animation">manage projects</span> and <span class="hero-hover-underline-animation">develop websites</span> to help you reach your goal
         </div>
       </div>
       <div class="hero-right">
@@ -157,7 +160,7 @@
     <h1>My Portfolio</h1>
     <div class="row">
       <div class="col-10 offset-1">
-        <div class="card mb-3 border-violet">
+        <div class="card mb-3 border-violet portfolio-card">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./assets/ping.jpg" class="img-fluid rounded-start" alt="...">
@@ -194,7 +197,7 @@
         </div>
       </div>
       <div class="col-10 offset-1">
-        <div class="card mb-3 border-violet">
+        <div class="card mb-3 border-violet portfolio-card">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./assets/blockx_staking.jpg" class="img-fluid rounded-start">
@@ -223,7 +226,7 @@
         </div>
       </div>
       <div class="col-10 offset-1">
-        <div class="card mb-3 border-violet">
+        <div class="card mb-3 border-violet portfolio-card">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./assets/Pollo.png" class="img-fluid rounded-start">
@@ -254,7 +257,7 @@
         </div>
       </div>
       <div class="col-10 offset-1">
-        <div class="card mb-3 border-violet">
+        <div class="card mb-3 border-violet portfolio-card">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./assets/quantum.jpg" class="img-fluid rounded-start">
@@ -282,7 +285,7 @@
         </div>
       </div>
       <div class="col-10 offset-1">
-        <div class="card mb-3 border-violet">
+        <div class="card mb-3 border-violet portfolio-card">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./assets/asterisk3.jpg" class="img-fluid rounded-start">
@@ -310,7 +313,7 @@
         </div>
       </div>
       <div class="col-10 offset-1">
-        <div class="card mb-3 border-violet">
+        <div class="card mb-3 border-violet portfolio-card">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./assets/n1.jpg" class="img-fluid rounded-start">
@@ -465,11 +468,16 @@
     </div>    
   </div>
 
-  <div class="container-fluid mt-5 footer p-5 justify-content-between">
-    <div>
-      Made with ❤️ by Benjamin
+  <div class="container-fluid mt-5 footer p-5 justify-content-between d-flex flex-column flex-md-row">
+    <div class="d-flex flex-column">
+      <div>
+        Made with ❤️ by Benjamin
+      </div>
+      <div>
+        HTML + CSS + Bootstrap
+      </div>
     </div>
-    <div class="footer-links d-flex flex-column">
+    <div class="d-flex flex-column">
       <div>
         Email: <a href="mailto:benjnp@gmail.com" target="_blank">benjnp@gmail.com</a>
       </div>
